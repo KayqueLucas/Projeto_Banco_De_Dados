@@ -1,6 +1,6 @@
-# Projeto_Banco_De_Dados
+# Projeto Banco De Dados
 
-## Modelagem Conceitual (Diagrama ER):
+## Modelagem Conceitual:
 ------------
 ### Entidades Principais:
 #### 1. Funcionário
