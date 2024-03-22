@@ -17,5 +17,18 @@ idade INT check(idade >=18),
 email varchar(100)
 );
 
-SELECT * FROM  campanha
+create table perguntas
+(
+	id_pergunta SERIAL primary key,
+	enunciado VARCHAR(255),
+	opcao_a VARCHAR(255),
+	opcao_b VARCHAR(255),
+	opcao_c VARCHAR(255),
+	opcao_d VARCHAR(255),
+	resposta_selecionada CHAR(1)
+);
+
+select * from perguntas;
+
+SELECT * FROM  campanha;
 
