@@ -8,13 +8,13 @@ CREATE TABLE Campanha
     data_fim DATE
 );
 
-create table funcionario
+create table funcionarios
 (
-id_funcionario serial primary key,
-departamento varchar(100) not null,
-nome varchar(100) not null,
-idade INT check(idade >=18),
-email varchar(100)
+	id_funcionarios serial primary key,
+	departamento varchar(100) not null,
+	nome varchar(100) not null,
+	idade INT check(idade >=18),
+	email varchar(100)
 );
 
 create table perguntas
@@ -28,7 +28,17 @@ create table perguntas
 	resposta_selecionada CHAR(1)
 );
 
+create table respostas
+(
+	id_respostas serial primary key,
+	id_funcionarios int,
+	id_perguntas int,
+	resposta_correta char(1),
+	foreign key (id_funcionarios) references funcionarios(id_funcionarios),
+	foreign key (id_perguntas) references perguntas(id_pergunta)
+);
+
 select * from perguntas;
-
+select * from funcionarios;
 SELECT * FROM  campanha;
-
+select * from respostas;
