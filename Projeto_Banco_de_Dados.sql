@@ -8,5 +8,14 @@ CREATE TABLE Campanha
     data_fim DATE
 );
 
+create table funcionario
+(
+id_funcionario serial primary key,
+departamento varchar(100) not null,
+nome varchar(100) not null,
+idade INT check(idade >=18),
+email varchar(100)
+);
 
 SELECT * FROM  campanha
+
