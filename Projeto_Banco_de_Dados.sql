@@ -38,16 +38,18 @@ create table respostas
 	foreign key (id_perguntas) references perguntas(id_pergunta)
 );
 
-create table premiacao 
+create table pontuacao
 (
-	id_premiacao serial primary key,
-	num_respostas_corretas int,
-	id_funcionarios int,
-	foreign key (id_funcionarios) references funcionarios(id_funcionarios)
+id_pontuacao serial primary key,
+id_funcionario int,
+foreign key (id_funcionario) references funcionario(id_funcionario),
+numero_de_acertos int
 );
+
+
 
 select * from perguntas;
 select * from funcionarios;
 SELECT * FROM campanha;
 select * from respostas;
-select * from premiacao;
+select * from pontuacao;
