@@ -19,4 +19,6 @@
 #### 2. Uma Pergunta pode ter várias Respostas.
 #### 3. Uma Campanha de Quiz pode ter várias Perguntas.
 
-![diagramalogico drawio](https://github.com/KayqueLucas/Projeto_Banco_De_Dados/assets/112138080/732dcf63-cb64-45a7-840e-da7a46b3cd78)
+#Diagrama Logico
+------------
+![diagrama_logico](https://github.com/KayqueLucas/Projeto_Banco_De_Dados/assets/112138080/859c2026-148b-4f78-a33c-b389027a2744)
