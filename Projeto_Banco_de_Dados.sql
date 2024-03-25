@@ -35,8 +35,6 @@ insert into Funcionarios (id_funcionarios, departamento, nome, idade, email) val
 (5, 'Financeiro', 'Renata', 26, 'renatacariani@gmail.com');
 
 
-
-
 select * from funcionarios;
 
 create table perguntas
@@ -60,9 +58,6 @@ insert into perguntas (id_pergunta, enunciado, opcao_a, opcao_b, opcao_c, opcao_
 (3, 'Qual é a flor tradicionalmente associada ao Dia das Mães?', 'a) Margarida', 'b) Tulipa', 'c) Rosa', 'd) Cravo', 'c', 1);
 insert into perguntas (id_pergunta, enunciado, opcao_a, opcao_b, opcao_c, opcao_d, resposta_correta, id_campanha) values
 (4, 'Qual é o país onde o Dia das Mães é comemorado pela primeira vez?', 'a) Estados Unidos', 'b) França', 'c) Brasil', 'd) Grécia', 'b', 1);
-
-
-
 
 
 select * from perguntas;
@@ -118,8 +113,6 @@ insert into respostas (id_funcionarios, id_perguntas, resposta_escolhida) values
 insert into respostas (id_funcionarios, id_perguntas, resposta_escolhida) values
 (5, 4, 'b');
 
-
-
 select * from respostas;
 
 create table pontuacao
@@ -130,6 +123,21 @@ foreign key (id_funcionarios) references funcionarios (id_funcionarios),
 numero_de_acertos int
 );
 
+INSERT INTO pontuacao (id_funcionarios, numero_de_acertos)
+	SELECT id_funcionarios, count(*) as numero_de_acertos  
+	FROM respostas
+	JOIN perguntas
+	ON respostas.id_perguntas = perguntas.id_pergunta
+	WHERE respostas.resposta_escolhida  = perguntas.resposta_correta
+	GROUP by id_funcionarios;
+
+--Consulta para funcionarios que obtiveram maior pontuação.
+
+SELECT f. * 
+	FROM funcionarios f
+	JOIN pontuacao p
+	ON f.id_funcionarios = p.id_funcionarios 
+	WHERE p.numero_de_acertos = (SELECT MAX(numero_de_acertos)
+	FROM pontuacao);
 
 select * from pontuacao;
-
