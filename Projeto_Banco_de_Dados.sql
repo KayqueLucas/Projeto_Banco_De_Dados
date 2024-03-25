@@ -141,3 +141,5 @@ SELECT f. *
 	FROM pontuacao);
 
 select * from pontuacao;
+
+update campanha set nome = 'Dia das mães' where id_campanha  = 1;
