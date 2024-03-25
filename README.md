@@ -6,13 +6,15 @@
 #### 1. Funcionário
 #### 2. Pergunta
 #### 3. Resposta
-#### 4 .Campanha de Quiz
+#### 4. Campanha de Quiz
+#### 5. Pontuação
 ------------
 ### Atributos:
 #### 1. Funcionário: id_funcionario (chave primária), nome, departamento, etc.
 #### 2. Pergunta: id_pergunta (chave primária), enunciado, opção_a, opção_b, opção_c, opção_d, resposta_correta.
 #### 3. Resposta: id_resposta (chave primária), id_funcionario (chave estrangeira), id_pergunta (chave estrangeira), resposta_selecionada.
 #### 4. Campanha de Quiz: id_campanha (chave primária), data_inicio, data_fim.
+#### 4. Pontuação: id_pontuacao(chave primaria),id_funcionario (chave estrangeira),id_campanha (chave estrangeira),numero_de_acertos.
 ------------
 ### Relacionamentos:
 #### 1. Um Funcionário pode responder a várias Perguntas.
