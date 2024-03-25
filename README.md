@@ -18,3 +18,5 @@
 #### 1. Um Funcionário pode responder a várias Perguntas.
 #### 2. Uma Pergunta pode ter várias Respostas.
 #### 3. Uma Campanha de Quiz pode ter várias Perguntas.
+
+![diagramalogico drawio](https://github.com/KayqueLucas/Projeto_Banco_De_Dados/assets/112138080/732dcf63-cb64-45a7-840e-da7a46b3cd78)
