@@ -25,6 +25,10 @@
 ------------
 ![diagrama_logico](https://github.com/KayqueLucas/Projeto_Banco_De_Dados/assets/112138080/859c2026-148b-4f78-a33c-b389027a2744)
 
-#Alunos:
+# Alunos:
 
-### Kayque Lucas: [![Linkedin](https://skillicons.dev/icons?i=linkedin&theme=dark)](https://www.linkedin.com/in/kayque-lucas-dev/)
+### LEONARDO DE ANDRADE[![Linkedin](https://skillicons.dev/icons?i=linkedin&theme=dark)](https://www.linkedin.com/in/leoesplinio/)
+### GIOVANNE MOREIRA[![Github](https://skillicons.dev/icons?i=github&theme=dark)](https://github.com/GiovanneMH)
+### KAYQUE LUCAS[![Linkedin](https://skillicons.dev/icons?i=linkedin&theme=dark)](https://www.linkedin.com/in/kayque-lucas-dev/)
+### ISMAEL ANTONIO[![Linkedin](https://skillicons.dev/icons?i=linkedin&theme=dark)](https://www.linkedin.com/in/ismael-antonio-a900ab131/)
+### MATHEUS AUGUSTO [![Linkedin](https://skillicons.dev/icons?i=linkedin&theme=dark)](https://www.linkedin.com/in/matheus-augusto-dalbone-gusm%C3%A3o-8ab128266/)
