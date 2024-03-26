@@ -28,8 +28,9 @@
 # Alunos:
 
 
-### LEONARDO DE ANDRADE[![LinkedIn](https://img.shields.io/badge/linkedin-%230077B5.svg?&style=for-the-badge&logo=linkedin&logoColor=white)](https://www.linkedin.com/in/leoesplinio/)
 ### GIOVANNE MOREIRA[![Github](https://camo.githubusercontent.com/ef6cf50bf9b90b26f298f3619057eb8b436363088459478449a6335fa8fe2184/68747470733a2f2f696d672e736869656c64732e696f2f62616467652f2d4769744875622d3138313731373f7374796c653d666c61742d737175617265266c6f676f3d676974687562)](https://github.com/GiovanneMH)
+### THIAGO SAUSMIKAT [![Github](https://camo.githubusercontent.com/ef6cf50bf9b90b26f298f3619057eb8b436363088459478449a6335fa8fe2184/68747470733a2f2f696d672e736869656c64732e696f2f62616467652f2d4769744875622d3138313731373f7374796c653d666c61742d737175617265266c6f676f3d676974687562)](https://github.com/ThiagoSausmikat)
+### LEONARDO DE ANDRADE[![LinkedIn](https://img.shields.io/badge/linkedin-%230077B5.svg?&style=for-the-badge&logo=linkedin&logoColor=white)](https://www.linkedin.com/in/leoesplinio/)
 ### KAYQUE LUCAS[![LinkedIn](https://img.shields.io/badge/linkedin-%230077B5.svg?&style=for-the-badge&logo=linkedin&logoColor=white)](https://www.linkedin.com/in/kayque-lucas-dev/)
 ### ISMAEL ANTONIO[![LinkedIn](https://img.shields.io/badge/linkedin-%230077B5.svg?&style=for-the-badge&logo=linkedin&logoColor=white)](https://www.linkedin.com/in/ismael-antonio-a900ab131/)
 ### MATHEUS AUGUSTO [![LinkedIn](https://img.shields.io/badge/linkedin-%230077B5.svg?&style=for-the-badge&logo=linkedin&logoColor=white)](https://www.linkedin.com/in/matheus-augusto-dalbone-gusm%C3%A3o-8ab128266/)
