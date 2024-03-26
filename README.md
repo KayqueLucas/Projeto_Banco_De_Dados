@@ -27,8 +27,4 @@
 
 #Alunos:
 
-![LEONARDO DE ANDRADE](https://www.linkedin.com/in/leoesplinio/)
-![GIOVANNE MOREIRA](https://github.com/GiovanneMH)
-![KAYQUE LUCAS](https://www.linkedin.com/in/kayque-lucas-dev/)
-![ISMAEL ANTONIO](https://www.linkedin.com/in/ismael-antonio-a900ab131/)
-![MATHEUS AUGUSTO](https://www.linkedin.com/in/matheus-augusto-dalbone-gusm%C3%A3o-8ab128266/)
+### Kayque Lucas: [![Linkedin](https://skillicons.dev/icons?i=linkedin&theme=dark)](https://www.linkedin.com/in/kayque-lucas-dev/)
